@@ -11,9 +11,9 @@ ham.addEventListener('click',()=>{
         ham.style.display='block';
     }
     else{   
-        mobileNav.classList.add('showMenu');  
-        closeIcon.style.display='block';
-        ham.style.display='none';
+        mobileNav.classList.add('showMenu')
+        closeIcon.style.display='block'
+        ham.style.display='none'
     }  
 })
 
