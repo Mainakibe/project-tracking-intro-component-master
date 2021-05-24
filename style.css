@@ -66,16 +66,21 @@ li{
 }
 .login{
     color: var(--GrayishBlue);
+    
 }
-a{
+a{ 
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 30px;
     color: var(--VeryDarkBlue);
     font-weight: 700;
 }
-a:nth-child(3){
-    margin-right: 40px;
+nav a:nth-child(4){
+    margin-top: 10px;
+    padding: 3px 3px;
+    height: 3px;
+    background-color: var(--GrayishBlue);
+    border-radius: 50%;
 }
 a:hover{
     text-decoration: underline;
@@ -222,6 +227,8 @@ small{
        width: 500px;
        height: 250px;  
    }
+
+   /* mobile nav */
    .mobile-nav{
        display: flex;
        flex-direction: column;
@@ -250,7 +257,7 @@ small{
        font-weight: 700;
    }
    .mobile-nav a:nth-child(3){
-       padding-left: 50px;
+       
    }
    .login{
         border-top: 1.5px solid var(--GrayishBlue);
@@ -267,6 +274,9 @@ small{
     .icons{
         margin-left: 40px;
     }
+    .container{
+        margin-top:150px;
+    }
     h4{
         font-size: 12px;
     }
@@ -279,9 +289,7 @@ small{
     small{
         font-size: 10px;
     }
-    .container{
-        margin-top:150px;
-    }
+   
     .right{
         position: relative;
         left: 8.5rem;
