@@ -7,7 +7,7 @@ const closeIcon = document.querySelector('.close');
 ham.addEventListener('click',()=>{
     if(mobileNav.classList.contains('showMenu')){
         mobileNav.classList.remove('showMenu');
-        closeIcon.style.display='none'
+        closeIcon.style.display='none';
         ham.style.display='block';
     }
     else{   
